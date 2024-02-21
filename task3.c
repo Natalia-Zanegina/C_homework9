@@ -47,7 +47,7 @@ int main(void)
         } 
         else if (c >= '0' && c <= '9')
         {
-            num = num*order + (c - '0');
+            num = num * order + (c - '0');
             order = 10;
             flag = 1;
         }

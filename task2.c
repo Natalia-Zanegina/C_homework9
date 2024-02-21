@@ -21,8 +21,7 @@ int main(void)
 
     f_in = fopen("in.txt", "r");
 
-    for (int i = 0; i < SIZE; i++)
-        fscanf(f_in, "%[^\n]", letters);
+    fscanf(f_in, "%s", letters);
     
     fclose(f_in);
 
